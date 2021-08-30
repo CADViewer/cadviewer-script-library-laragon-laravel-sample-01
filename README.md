@@ -11,9 +11,6 @@ For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl 
 For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl in /resources/views/layouts/cadviewer-space-object-canvas-02.blade.php and $httpHost and $home_dir in  /public/php/CADViewer_config.php 
 
 
-The Laravel installation connects to the php scripts and CAD conversions in http://localhost/cadviewer/.
-
-
 
 ## Documentation 
 
