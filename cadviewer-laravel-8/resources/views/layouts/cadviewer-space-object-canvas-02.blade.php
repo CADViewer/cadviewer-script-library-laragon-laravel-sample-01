@@ -61,9 +61,15 @@ var FileName = ServerUrl + "/home/casper/laravel/example-app/public/content/draw
 //var ServerUrl = "http://127.0.0.1:8000/";
 //var ServerLocation = "/nodejs/cadviewer-conversion-server/";
 
-var ServerBackEndUrl = "http://localhost/cadviewer/";
-var ServerUrl = "http://localhost/cadviewer/";
-var ServerLocation = "/laragon/www/cadviewer/";
+//var ServerBackEndUrl = "http://localhost/cadviewer/";
+//var ServerUrl = "http://localhost/cadviewer/";
+// var ServerLocation = "/laragon/www/cadviewer/";
+
+var ServerBackEndUrl = "http://cadviewer-laravel-8.test/";
+var ServerUrl = "http://cadviewer-laravel-8.test/";
+
+
+var ServerLocation = "/laragon/www/cadviewer-laravel-8/public/";
 
 var FileName = ServerUrl + "/content/drawings/dwg/hq17_.dwg";	
         

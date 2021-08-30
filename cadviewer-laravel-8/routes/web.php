@@ -20,6 +20,7 @@ Route::get('/', function () {
 // CADViewer
 
 return view('layouts.logo-only').view('layouts.cadviewer-space-object-canvas-02');
+//return view('layouts.cadviewer-space-object-canvas-02');
 	
 	
 });

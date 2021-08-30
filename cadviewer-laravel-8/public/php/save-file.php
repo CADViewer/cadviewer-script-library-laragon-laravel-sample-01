@@ -1,0 +1,78 @@
+<?php
+
+$fullPath = $_POST['file'];
+$file_content = $_POST['file_content'];
+$custom_content = $_POST['custom_content'];    // this is stuff to use to control content
+
+// echo $custom_content;
+
+$base64 = 0;
+
+try {
+	if (isset($_POST['base64'])){
+		$base64 = $_POST['base64'];		
+	}
+} catch (Exception $e) {
+	// do nothing, base64 is just not defined
+}
+
+if ($base64==1){
+	$file_content = base64_decode($file_content);	
+}
+
+
+$fullPath = urldecode($fullPath);
+
+
+//echo 'XX'. $fullPath . 'XX';
+
+
+if (strpos ( $fullPath , 'http' )>-1){
+
+	$fullPath = str_replace(" ", "%20", $fullPath);
+}
+
+//echo "$fullPath";
+//echo "$file_content";
+echo "";
+
+$basepath =    substr( $fullPath, 0, strrpos ( $fullPath , '/' ));
+
+if (!file_exists($basepath)) {
+	mkdir($basepath, 0777, true);
+}
+
+if (file_exists($fullPath)) {	
+	unlink($fullPath);
+//	rename($fullPath, $fullPath . '_old');
+}
+
+
+//$rand = rand ( 0 , 100000 );
+//if ($fd = fopen ($fullPath . $rand, "w+")) {
+
+
+if ($fd = fopen ($fullPath, "w+")) {
+//echo "file open!";
+
+
+	$pieces = str_split($file_content, 1024 * 4);
+    foreach ($pieces as $piece) {
+        fwrite($fd, $piece, strlen($piece));
+    }
+    fclose($fd);
+
+//	fwrite($fd, $file_content);
+//	fclose ($fd);	
+		
+	$time = time() + 1;
+	touch($fullPath, $time);
+		
+ 	echo "Succes";
+	exit;
+}
+
+ 	echo "Could not save file " . $fullPath;
+	exit;
+
+?>
