@@ -2,9 +2,16 @@
 
 Place under your c:/laragon/www folder.   
 
-/cadviewer/ folder contains standard CADViewer with apache php scripts, run http://localhost/cadviewer/html/ or http://localhost/cadviewer/html/CADViewer_fileloader_650.html to get started. 
+1: /cadviewer/ folder contains standard CADViewer with apache php scripts, run http://cadviewer.test/html/ or http://cadviewer.test/html/CADViewer_fileloader_650.html to get started.
+For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl in all /cadviewer/html/*.html files and $httpHost and $home_dir in  /php/CADViewer_config.php 
 
-/cadviewer-laravel-8/ contains a Laravel installation of CADViewer, run: http://localhost/cadviewer-laravel-8/public/ to get started.  The Laravel installation connects to the php scripts and CAD conversions in http://localhost/cadviewer/.
+
+2: /cadviewer-laravel-8/ contains a Laravel installation of CADViewer, run: http://cadviewer-laravel-8.test to get started.  
+
+For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl in /resources/views/layouts/cadviewer-space-object-canvas-02.blade.php and $httpHost and $home_dir in  /public/php/CADViewer_config.php 
+
+
+The Laravel installation connects to the php scripts and CAD conversions in http://localhost/cadviewer/.
 
 
 
