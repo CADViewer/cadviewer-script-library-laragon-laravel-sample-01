@@ -7,7 +7,6 @@ Place under your c:/laragon/www folder.
 /cadviewer-laravel-8/ contains a Laravel installation of CADViewer, run: http://localhost/cadviewer-laravel-8/public/ to get started.  The Laravel installation connects to the php scripts and CAD conversions in http://localhost/cadviewer/.
 
 
-Use this version with global DOM scope with back-end conversion scripts and CAD converters for PHP, .NET, .NET Core, Servlets, Laravel and NodeJS.  For front-end frameworks ReactJS, Angular and VueJS, use npm installer: **npm i cadviewer**.  
 
 ## Documentation 
 
