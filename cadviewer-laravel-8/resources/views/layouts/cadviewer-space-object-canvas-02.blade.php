@@ -22,7 +22,7 @@
 	<script src="{{ asset('/app//cv/cv-core/axuploader_2_19.js') }}" type="text/javascript" ></script>
 
  <!--<script src="{{ asset('/app/cv/cv-pro/cadviewer.min.js') }}" type="text/javascript" ></script> -->
-     <script src="{{ asset('/app/cv/cv-pro/cadviewer_6.5.16a.min.js') }}" type="text/javascript" ></script>
+     <script src="{{ asset('/app/cv/cv-pro/cadviewer_6.5.16d.min.js') }}" type="text/javascript" ></script>
  
 	<script src="{{ asset('/app/cv/cv-custom_commands/CADViewer_custom_commands.js') }}" type="text/javascript" ></script>
 

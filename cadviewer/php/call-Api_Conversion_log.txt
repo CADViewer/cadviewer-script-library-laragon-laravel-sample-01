@@ -1354,3 +1354,48 @@ $post_request_flag false $callback. = jQuery22305339408858624577_1630339769708("
 LAST BEFORE CALLBACK   
  
  
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer.test//content/drawings/dwg/measure_template.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"hlall","paramValue":""},{"paramName":"fpath","paramValue":"c:/laragon/www/cadviewer/converters/ax2022/windows/fonts/"},{"paramName":"postfix","paramValue":""}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 5  
+param f : svg  
+param fpath : c:/laragon/www/cadviewer/converters/ax2022/windows/fonts/  
+  $output_file_extension:svg   $param_string:  "-f=svg" -last -hlall "-fpath=c:/laragon/www/cadviewer/converters/ax2022/windows/fonts/" -postfix  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer/converters/files/f126132755.dwg  
+$fullPath: c:/laragon/www/cadviewer/converters/files/f126132755.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer//content/drawings/dwg/measure_template.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer/converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer/converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer//content/drawings/dwg/measure_template.dwg" "-o=c:/laragon/www/cadviewer/converters/files/f126132755.svg"  "-f=svg" -last -hlall "-fpath=c:/laragon/www/cadviewer/converters/ax2022/windows/fonts/" -postfix "-lpath=c:/laragon/www/cadviewer/converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer/converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer/converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer/converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer//content/drawings/dwg/measure_template.dwg" "-o=c:/laragon/www/cadviewer/converters/files/f126132755.svg"  "-f=svg" -last -hlall "-fpath=c:/laragon/www/cadviewer/converters/ax2022/windows/fonts/" -postfix "-lpath=c:/laragon/www/cadviewer/converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer/converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer//content/drawings/dwg/measure_template.dwg   
+unlink2  c:/laragon/www/cadviewer/converters/files/f126132755_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer\/\/content\/drawings\/dwg\/measure_template.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer.test\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f126132755&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery22309302202538384388_1630409236922("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer\/\/content\/drawings\/dwg\/measure_template.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer.test\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f126132755&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
