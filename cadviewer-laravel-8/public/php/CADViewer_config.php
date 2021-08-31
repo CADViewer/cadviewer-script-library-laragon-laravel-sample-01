@@ -6,7 +6,7 @@
 //  Windows   Linux
 	
 //	$httpHost = "http://localhost/cadviewer";
-	$httpHost = "http://cadviewer-laravel-8.test";
+	$httpHost = "http://cadviewer-laravel-8.test/";
 	
 	
 	
@@ -15,7 +15,7 @@
 //  Linux
 //	$home_dir = "/var/www/htdocs/cadviewer";
 //  Windows
-	$home_dir = "c:/laragon/www/cadviewer-laravel-8/public";
+	$home_dir = "c:/laragon/www/cadviewer-laravel-8/public/";
 
 
 
