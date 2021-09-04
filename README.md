@@ -11,6 +11,29 @@ For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl 
 For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl in /resources/views/layouts/cadviewer-space-object-canvas-02.blade.php and $httpHost and $home_dir in  /public/php/CADViewer_config.php 
 
 
+2A: Go to /routes/web.php,  select between the the routes: 
+
+
+// CADViewer CASE 1: - Space Objects
+//return view('layouts.logo-only').view('layouts.cadviewer-space-object-canvas-02');
+	
+
+// CADViewer CASE 2: - MySQL - Visual Query
+return view('layouts.cadviewer-visual-query-03');
+
+2B: Go to /resources/views/layouts/  
+
+You can find two CADViewer blade files corresponding to the routes defined in /routes/web.php. 
+
+layouts.cadviewer-space-object-canvas-02.blade.php
+and
+layouts.cadviewer-visual-query-03.blade.php
+
+use these template samples for your reference. 
+
+
+
+
 
 ## Documentation 
 
