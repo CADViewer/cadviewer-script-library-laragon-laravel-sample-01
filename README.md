@@ -14,16 +14,15 @@ For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl 
 2A: Go to /routes/web.php,  select between the the routes: 
 
 
-´´´´
 
 // CADViewer CASE 1: - Space Objects
+
 //return view('layouts.logo-only').view('layouts.cadviewer-space-object-canvas-02');
 	
 
 // CADViewer CASE 2: - MySQL - Visual Query
-return view('layouts.cadviewer-visual-query-03');
 
-´´´´
+return view('layouts.cadviewer-visual-query-03');
 
 
 
@@ -33,7 +32,9 @@ You can find two CADViewer blade files corresponding to the routes defined in /r
 
 
 layouts.cadviewer-space-object-canvas-02.blade.php
+
 and
+
 layouts.cadviewer-visual-query-03.blade.php
 
 use these template samples for your reference. 
