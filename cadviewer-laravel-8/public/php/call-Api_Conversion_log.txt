@@ -3990,3 +3990,513 @@ $post_request_flag false $callback. = jQuery223034378439035050357_1630409545464(
 LAST BEFORE CALLBACK   
  
  
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"la","paramValue":""},{"paramName":"fpath","paramValue":"/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 6  
+param f : svg  
+param rl : RM_  
+param tl : RM_TXT  
+param fpath : /laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts  
+  $output_file_extension:svg   $param_string:  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1582625467.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1582625467.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1582625467.svg"  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1582625467.svg"  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1582625467_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1582625467&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery22309814876611207619_1630485994523("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1582625467&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"la","paramValue":""},{"paramName":"fpath","paramValue":"/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 6  
+param f : svg  
+param rl : RM_  
+param tl : RM_TXT  
+param fpath : /laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts  
+  $output_file_extension:svg   $param_string:  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f813806044.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f813806044.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f813806044.svg"  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f813806044.svg"  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f813806044_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f813806044&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery22301301092280551035_1630739014581("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f813806044&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"la","paramValue":""},{"paramName":"fpath","paramValue":"/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 6  
+param f : svg  
+param rl : RM_  
+param tl : RM_TXT  
+param fpath : /laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts  
+  $output_file_extension:svg   $param_string:  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1762418649.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1762418649.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1762418649.svg"  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1762418649.svg"  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1762418649_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1762418649&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery223030782363651607647_1630743945183("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1762418649&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"la","paramValue":""},{"paramName":"fpath","paramValue":"/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 6  
+param f : svg  
+param rl : RM_  
+param tl : RM_TXT  
+param fpath : /laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts  
+  $output_file_extension:svg   $param_string:  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2082486587.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2082486587.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2082486587.svg"  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2082486587.svg"  "-f=svg" -last "-rl=RM_" "-tl=RM_TXT" -la "-fpath=/laragon/www/cadviewer-laravel-8/public/converters/ax2020/windows/fonts" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2082486587_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f2082486587&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery223003602837943619974_1630743951262("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f2082486587&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"RL","paramValue":"RM_"},{"paramName":"TL","paramValue":"RM_TXT"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 5  
+param f : svg  
+param RL : RM_  
+param TL : RM_TXT  
+  $output_file_extension:svg   $param_string:  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1019543752.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1019543752.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1019543752.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1019543752.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1019543752_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1019543752&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery223011923313724192641_1630744262068("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1019543752&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"RL","paramValue":"RM_"},{"paramName":"TL","paramValue":"RM_TXT"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 5  
+param f : svg  
+param RL : RM_  
+param TL : RM_TXT  
+  $output_file_extension:svg   $param_string:  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2117076004.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2117076004.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2117076004.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2117076004.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f2117076004_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f2117076004&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery2230368152212841268_1630744422185("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f2117076004&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"RL","paramValue":"RM_"},{"paramName":"TL","paramValue":"RM_TXT"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 5  
+param f : svg  
+param RL : RM_  
+param TL : RM_TXT  
+  $output_file_extension:svg   $param_string:  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1925784258.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1925784258.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1925784258.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1925784258.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1925784258_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1925784258&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery22302543468311213142_1630744428164("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1925784258&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"RL","paramValue":"RM_"},{"paramName":"TL","paramValue":"RM_TXT"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 5  
+param f : svg  
+param RL : RM_  
+param TL : RM_TXT  
+  $output_file_extension:svg   $param_string:  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1842982317.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1842982317.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1842982317.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1842982317.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f1842982317_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1842982317&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery22303665151006374918_1630744726461("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f1842982317&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"RL","paramValue":"RM_"},{"paramName":"TL","paramValue":"RM_TXT"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 5  
+param f : svg  
+param RL : RM_  
+param TL : RM_TXT  
+  $output_file_extension:svg   $param_string:  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f590705196.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f590705196.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f590705196.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f590705196.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f590705196_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f590705196&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery223007015628027494247_1630744980606("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f590705196&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"RL","paramValue":"RM_"},{"paramName":"TL","paramValue":"RM_TXT"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 5  
+param f : svg  
+param RL : RM_  
+param TL : RM_TXT  
+  $output_file_extension:svg   $param_string:  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f502936513.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f502936513.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f502936513.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f502936513.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f502936513_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f502936513&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery22308149362090303109_1630745310430("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f502936513&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
+NEW-FILE-CONVERSION-BEGIN   v2.0.01  
+ r
+Opening call-Api_Conversion_log.txt for new conversion: 
+before _ isset()x2  
+_GET['tms_restful_api'] is set 
+first in file   
+$json_data: {"action":"svg_creation","converter":"AutoXchange AX2020","version":"V1.00","contentType":"file","contentLocation":"http://cadviewer-laravel-8.test//content/drawings/dwg/hq17_.dwg","contentFormat":"DWG","contentUsername":"","contentPassword":"","userLabel":"fromCADViewerJS","contentResponse":"stream","leaveStreamOnServer":0,"parameters":[{"paramName":"f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"RL","paramValue":"RM_"},{"paramName":"TL","paramValue":"RM_TXT"}]}   
+$json_request(conv):    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+$max: 5  
+param f : svg  
+param RL : RM_  
+param TL : RM_TXT  
+  $output_file_extension:svg   $param_string:  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT"  
+We are setting $server_load:  1  
+after content location check $server_load:  1  , content-type: (file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f898871666.dwg  
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//converters/files/f898871666.dwg  
+AA: before setting $fullPath:  $server_load 1   $contenttype file 
+$fullPath: c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg  
+$max_conv: 3  
+$engine_path: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe  
+new $add_xpath    
+In loop to add xpath  
+after first loop $command_line_parameter_xpath   
+$command_line: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f898871666.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"  XXXXXXX  
+library path before new env: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/  
+this is the value we got setting the environment 1  
+getenv after putenv: c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/   
+before call to exec:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe "-i=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg" "-o=c:/laragon/www/cadviewer-laravel-8/public//converters/files/f898871666.svg"  "-f=svg" -model -extents "-RL=RM_" "-TL=RM_TXT" "-lpath=c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows/"  "-xpath=c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/"     
+before call to exec, engine_path:  c:/laragon/www/cadviewer-laravel-8/public//converters/ax2022/windows//AX2022_W64_22_07_55.exe    
+current script owner: caspe    
+AGENT operating_system_detection():  $agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36  
+AGENT PHP_OS : WINNT
+operating_system_detection(): WINNT    
+exec return1  0   
+exec return1 check  0   
+unlink1  c:/laragon/www/cadviewer-laravel-8/public//content/drawings/dwg/hq17_.dwg   
+unlink2  c:/laragon/www/cadviewer-laravel-8/public//converters/files/f898871666_ac1024.dwg   
+svg_creation   
+$json_response = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f898871666&Type=svg\"}"  
+$post_request_flag false $callback. = jQuery22302521889024345021_1630745343024("{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2020\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\"c:\/laragon\/www\/cadviewer-laravel-8\/public\/\/content\/drawings\/dwg\/hq17_.dwg\",\"contentResponse\":\"stream\",\"contentStreamData\":\"http:\/\/cadviewer-laravel-8.test\/\/php\/\/getFile_09.php?remainOnServer=0&fileTag=f898871666&Type=svg\"}")
+LAST BEFORE CALLBACK   
+ 
+ 
