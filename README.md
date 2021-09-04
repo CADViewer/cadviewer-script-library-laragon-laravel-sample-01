@@ -17,7 +17,7 @@ For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl 
 
 *// CADViewer CASE 1: - Space Objects*
 
-*//return view('layouts.logo-only').view('layouts.cadviewer-space-object-canvas-02');*
+*return view('layouts.logo-only').view('layouts.cadviewer-space-object-canvas-02');*
 	
 
 *// CADViewer CASE 2: - MySQL - Visual Query*
