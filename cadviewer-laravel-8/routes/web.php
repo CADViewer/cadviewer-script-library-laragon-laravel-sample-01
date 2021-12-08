@@ -21,11 +21,11 @@ Route::get('/', function () {
 
 
 // CADViewer CASE 1: - Space Objects
-//return view('layouts.logo-only').view('layouts.cadviewer-space-object-canvas-02');
+return view('layouts.logo-only').view('layouts.cadviewer-space-object-canvas-02');
 	
 
 // CADViewer CASE 2: - MySQL - Visual Query
-return view('layouts.cadviewer-visual-query-03');
+//return view('layouts.cadviewer-visual-query-03');
 
 
 
