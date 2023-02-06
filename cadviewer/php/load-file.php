@@ -1,5 +1,8 @@
 <?php
 
+// Configuration file for CADViewer Community and CADViewer Enterprise version and standard settings
+require 'CADViewer_config.php';
+
 $http_origin = '';
 
 if (isset($_SERVER['HTTP_ORIGIN'])) {
@@ -9,34 +12,106 @@ elseif (isset($_SERVER['HTTP_REFERER'])) {
   $http_origin = $_SERVER['HTTP_REFERER'];
 }
 
-$allowed_domains = array(
-  'http://localhost:8080',
-  'http://localhost',
-  'http://cadviewer-laravel-8.test',
-  
-);
 
-if (in_array($http_origin, $allowed_domains))
-{
-    header("Access-Control-Allow-Origin: $http_origin");
-    header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
-    header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token , Authorization');
+if ($checkorigin){
+	
+	if (in_array($http_origin, $allowed_domains))
+	{
+		header("Access-Control-Allow-Origin: $http_origin");
+		header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+		header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token , Authorization');
+	}	
+
+}
+else{
+	header("Access-Control-Allow-Origin: *");
+	header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+	header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token , Authorization');
 }
 
 
 
 $fullPath = "";
+$loadtype = "";
+$listtype = "";
+$redline = "x";
 
 if (!empty($_GET)) {
-	$fullPath = $_GET['file'];
+	if (isset($_GET['file'])) {
+		$fullPath = $_GET['file'];
+	}
 }
 else{
-
     // no data passed by get
-	$fullPath = $_POST['file'];
+	if (isset($_POST['file'])) {
+		$fullPath = $_POST['file'];
+	}
 }
 
-//echo $fullPath;
+
+if (!empty($_GET)) {
+	if (isset($_GET['loadtype'])) {
+		$loadtype = $_GET['loadtype'];
+	}
+}
+else{
+    // no data passed by get
+	if (isset($_POST['loadtype'])) {
+		$loadtype = $_POST['loadtype'];
+	}
+}
+
+
+if (!empty($_GET)) {
+	if (isset($_GET['listtype'])) {
+		$listtype = $_GET['listtype'];
+	}
+}
+else{
+    // no data passed by get
+	if (isset($_POST['listtype'])) {
+		$listtype = $_POST['listtype'];
+	}
+}
+
+
+
+
+//echo "XX loadtype:" . $loadtype ."    listtype:" . $listtype. "  ". $fullPath;
+
+// load languages app dir
+if ( $loadtype == "languagefile"){
+	$fullPath = $home_dir_app . $fullPath;
+}
+
+// menu file app dir
+if ( $loadtype == "menufile"){
+	$fullPath = $home_dir_app . $fullPath;
+}
+
+// home dir . for server location
+if ( $loadtype == "serverfilelist"){
+	$fullPath = $home_dir . $fullPath;
+}
+
+
+// 7.6.26
+$pos1 = strpos($fullPath, "http:");
+$pos2 = strpos($fullPath, "https:");
+$basepathpos = strpos($fullPath, $home_dir);
+//echo "pos1".is_numeric($pos1)."pos2".is_numeric($pos2);
+// home dir . for server location   only if not 
+if ( $loadtype == "redline" && !(is_numeric($pos1) || is_numeric($pos2) )){
+		
+	if (is_numeric($basepathpos) && $basepathpos == 0) {
+		// do nothing, only if the serverpath is the beginning part of the complete filename
+	}
+	else 
+		$fullPath = $home_dir . $fullPath;
+
+}
+
+//echo "  fullPath:" . $fullPath. "XYZXYZ " . $loadtype ."XXXX";
 
 $contents = '';
 
@@ -55,8 +130,56 @@ else{
 	echo "cannot open the file " . $fullPath;
 }
 
+$lastIndex = strripos($fullPath, '.');
+$outputFormat = substr($fullPath, $lastIndex+1);
+
+//echo "  ". $outputFormat . "   ";
+
+if ($outputFormat == 'svg') 
+	header('Content-type: image/svg+xml');
+
+
 echo $contents;
 
 exit;
+
+/*
+
+
+
+if ($outputFormat == "json") 
+	header('Content-Type : application/json');
+
+
+//header('Content-type: text/plain');
+
+
+echo $contents;
+
+*/
+
+
+/*
+
+if ( $outputFormat ==  'png' )
+	header('Content-Type : image/png');
+
+else
+if ($outputFormat == 'jpg') 
+	header('Content-Type : image/jpeg');
+else
+if ($outputFormat == 'jpeg') 
+	header('Content-Type : image/jpeg');
+else
+if ($outputFormat == 'gif') 
+	header('Content-Type : image/gif');
+else
+else
+else
+	header('Content-type: text/plain');
+
+
+exit;
+*/
 
 ?>
