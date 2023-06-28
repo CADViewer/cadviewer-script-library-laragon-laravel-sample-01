@@ -29,7 +29,7 @@ You can find one CADViewer blade file corresponding to the routes defined in /ro
 
 #### NOTE:
 
-#### Laravel project implemented as blade document (legacy CADViewer 6)
+#### Laravel project implemented as blade document
 
 3: /cadviewer-laravel-8/ contains legacy Laravel installation of CADViewer, run: http://cadviewer-laravel-8.test to get started.  
 
