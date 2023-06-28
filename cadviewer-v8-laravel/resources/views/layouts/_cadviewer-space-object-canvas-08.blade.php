@@ -7,42 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<script src="{{ asset('/app/js/jquery-2.2.3.js') }}" type="text/javascript"></script>
-	<script src="{{ asset('/app/js/jquery.qtip.min.js') }}" type="text/javascript"></script>
-	<link href="{{ asset('/app/css/jquery.qtip.min.css') }}" media="screen" rel="stylesheet" type="text/css" />
 
-	<script src="{{ asset('/app/js/popper.js') }}" type="text/javascript"></script>
+	<link href="{{ asset('/app/css/cadviewer-core-styles.css) }}" media="screen" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/app/css/font-awesome.min.css) }}" media="screen" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/app/css/bootstrap-multiselect.css) }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/app/css/jquery.qtip.min.css) }}" media="screen" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/app/css/jquery-ui-1.13.2.min.css) }}" media="screen" rel="stylesheet" type="text/css" />
 
-	<script src="{{ asset('/app/js/bootstrap.min.js') }}" type="text/javascript"></script>
-	<link href="{{ asset('/app/css/bootstrap.min.css') }}" media="screen" rel="stylesheet" type="text/css" />
-
-	<script src="{{ asset('/app/js/jquery-ui-1.11.4.min.js') }}" type="text/javascript"></script>
-	<link href="{{ asset('/app/css/jquery-ui-1.11.4.min.css') }}" media="screen" rel="stylesheet" type="text/css" />
-
-	<script src="{{ asset('/app//cv/cv-core/axuploader_2_19.js') }}" type="text/javascript" ></script>
-
- <!--<script src="{{ asset('/app/cv/cv-pro/cadviewer.min.js') }}" type="text/javascript" ></script> -->
-     <script src="{{ asset('/app/cv/cv-pro/cadviewer_6.5.16d.min.js') }}" type="text/javascript" ></script>
- 
-	<script src="{{ asset('/app/cv/cv-custom_commands/CADViewer_custom_commands.js') }}" type="text/javascript" ></script>
-
-	<script src="{{ asset('/app/cv/cvlicense.js') }}" type="text/javascript" ></script>
-
-	<script src="{{ asset('/app/js/bootstrap-multiselect.js') }}" type="text/javascript" ></script>
-	<link href="{{ asset('/app/css/bootstrap-multiselect.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('/app/css/cvjs_6.5.css') }}" media="screen" rel="stylesheet" type="text/css" />
-
-	<script src="{{ asset('/app/js/library_js_svg_path.js') }}" type="text/javascript"></script>			
-	<script src="{{ asset('/app/js/snap.svg-min.js') }}" type="text/javascript" ></script>
-
-	<script src="{{ asset('/app/js/rgbcolor.js') }}"type="text/javascript" ></script>
-	<script src="{{ asset('/app/js/StackBlur.js') }}"type="text/javascript" ></script>
-	<script src="{{ asset('/app/js/canvg.js') }}" type="text/javascript"  ></script>
-	<script src="{{ asset('/app/js/list.js') }}" type="text/javascript"></script>
-	<script src="{{ asset('/app/js/jscolor.js') }}" type="text/javascript" ></script>
+	<link href="{{ asset('/app/css/cadviewer-bootstrap.css) }}" media="screen" rel="stylesheet" type="text/css" />
 	
-	<script src="{{ asset('/app/js/jstree/jstree.min.js') }}"></script>
-	<script src="{{ asset('/app/js/xml2json.min.js') }}"></script>
+
+	<script src="{{ asset('/app/js/jquery-2.2.3.js) }}" type="text/javascript"></script>
+	<!-- <script src="{{ asset('/app/js/jquery-3.5.1.js" type="text/javascript"></script> -->
+	 <script src="{{ asset('/app/js/jquery.qtip.min.js) }}" type="text/javascript"></script> 
+
+	<script src="{{ asset('/app/js/popper.js) }}" type="text/javascript"></script>
+
+	<script src="{{ asset('/app/js/bootstrap-cadviewer.js) }}" type="text/javascript"></script>
+	
+	<script src="{{ asset('/app/js/jquery-ui-1.13.2.min.js) }}" type="text/javascript"></script>
+	<script src="{{ asset('/app/js/eve.js) }}" type="text/javascript" ></script>
+	
+	<script src="{{ asset('/app/cv/cv-pro/cadviewer.min.js) }}" type="text/javascript" ></script> 
+
+	<script src="{{ asset('/app/cv/cv-pro/custom_rules_template.js) }}" type="text/javascript" ></script>
+    <script src="{{ asset('/app/cv/cv-custom_commands/CADViewer_custom_commands.js) }}" type="text/javascript" ></script>
+
+	<script src="{{ asset('/app/cv/cvlicense.js) }}" type="text/javascript" ></script> 
+	 
+	 
+	<script src="{{ asset('/app/js/bootstrap-multiselect.js) }}" type="text/javascript" ></script>
+	<script src="{{ asset('/app/js/library_js_svg_path.js) }}" type="text/javascript"></script>			
+	<script src="{{ asset('/app/js/snap.svg-min.js) }}" type="text/javascript" ></script>
+
+	<script src="{{ asset('/app/js/cvjs_api_styles_2_0_26.js) }}" type="text/javascript" ></script>
+	<script src="{{ asset('/app/js/rgbcolor.js) }}"type="text/javascript" ></script>
+	<script src="{{ asset('/app/js/StackBlur.js) }}"type="text/javascript" ></script>
+	<script src="{{ asset('/app/js/canvg.js) }}" type="text/javascript"  ></script>
+	<script src="{{ asset('/app/js/list.js) }}" type="text/javascript"></script>
+	<script src="{{ asset('/app/js/jscolor.js) }}" type="text/javascript" ></script>
+	
+	<script src="{{ asset('/app/js/jstree/jstree.min.js) }}"></script>
+	<script src="{{ asset('/app/js/xml2json.min.js) }}"></script>
+	<script src="{{ asset('/app/js/d3.v3.min.js) }}"></script>  
+	<script src="{{ asset('/app/js/qrcode.min.js) }}" type="text/javascript"></script> 
+
+
 
 	<script type="text/javascript">
 

@@ -10,33 +10,27 @@
     <meta name="description" content="Tailor Made Software  - CADViewer Online Sample " />
     <meta name="keywords" content="" />
 
-	<script src="{{ asset('') }}" type="text/javascript"></script>
 
-
-
-	<link href="{{ asset('/app/css/cvjs-core-styles.css') }}" media="screen" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/app/css/cadviewer-core-styles.css') }}" media="screen" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('/app/css/font-awesome.min.css') }}" media="screen" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('/app/css/bootstrap-multiselect.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/app/css/bootstrap-multiselect.css') }}" media="screen" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('/app/css/jquery.qtip.min.css') }}" media="screen" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('/app/css/jquery-ui-1.13.2.min.css') }}" media="screen" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/app/css/cadviewer-bootstrap.css') }}" media="screen" rel="stylesheet" type="text/css" />
 
-	<link href="{{ asset('/app/css/bootstrap-cadviewer.css') }}" media="screen" rel="stylesheet" type="text/css" />
-	
+
 
 	<script src="{{ asset('/app/js/jquery-2.2.3.js') }}" type="text/javascript"></script>
-	<!-- <script src="../app/js/jquery-3.5.1.js" type="text/javascript"></script> -->
 	 <script src="{{ asset('/app/js/jquery.qtip.min.js') }}" type="text/javascript"></script> 
 
 	<script src="{{ asset('/app/js/popper.js') }}" type="text/javascript"></script>
 
 	<script src="{{ asset('/app/js/bootstrap-cadviewer.js') }}" type="text/javascript"></script>
-
-	 
-
+	
 	<script src="{{ asset('/app/js/jquery-ui-1.13.2.min.js') }}" type="text/javascript"></script>
-
+	<script src="{{ asset('/app/js/eve.js') }}" type="text/javascript" ></script>
+	
 	<script src="{{ asset('/app/cv/cv-pro/cadviewer.min.js') }}" type="text/javascript" ></script> 
-
 
 	<script src="{{ asset('/app/cv/cv-pro/custom_rules_template.js') }}" type="text/javascript" ></script>
     <script src="{{ asset('/app/cv/cv-custom_commands/CADViewer_custom_commands.js') }}" type="text/javascript" ></script>
@@ -59,6 +53,7 @@
 	<script src="{{ asset('/app/js/xml2json.min.js') }}"></script>
 	<script src="{{ asset('/app/js/d3.v3.min.js') }}"></script>  
 	<script src="{{ asset('/app/js/qrcode.min.js') }}" type="text/javascript"></script> 
+
 
 	
 	<script type="text/javascript">
@@ -152,7 +147,7 @@
 		// SETTINGS OF THE COLORS OF SPACES
 		cvjsRoomPolygonBaseAttributes = {
 	            fill: '#D3D3D3',   // #FFF   #ffd7f4
-	            "fill-opacity": "0.15",   // 0.1
+	            'fill-opacity': '0.15',   // 0.1
 	            stroke: '#CCC',  
 	            'stroke-width': 1,
 	            'stroke-linejoin': 'round',
@@ -175,7 +170,7 @@
 /** FIXED POP-UP MODAL
 
 		// THIS IS THE DESIGN OF THE pop-up MODAL WHEN CLICKING ON SPACES
-		var my_cvjsPopUpBody = "<div class=\"cvjs_modal_1\" onclick=\"my_own_clickmenu1();\">Hello<br>Menu 1<br><i class=\"glyphicon glyphicon-transfer\"></i></div>";
+		var my_cvjsPopUpBody = "<div class=\"cvjs_modal_1\" onclick="my_own_clickmenu1();\">Hello<br>Menu 1<br><i class=\"glyphicon glyphicon-transfer\"></i></div>";
 		my_cvjsPopUpBody += "<div class=\"cvjs_modal_1\" onclick=\"my_own_clickmenu2();\">Custom<br>Menu 2<br><i class=\"glyphicon glyphicon-info-sign\"></i></div>";
 		my_cvjsPopUpBody += "<div class=\"cvjs_modal_1\" onclick=\"cvjs_zoomHere();\">Zoom<br>Here<br><i class=\"glyphicon glyphicon-zoom-in\"></i></div>";
 
@@ -231,7 +226,7 @@
 
 		// NOTE BELOW: THESE SETTINGS ARE FOR SERVER CONTROLS FOR UPLOAD OF REDLINES
 		// last parameter , set true for dynamic paths
-		cvjs_setRedlinesAbsolutePath(ServerUrl+'/content/redlines/v7/', ServerLocation+'/content/redlines/v7/', true);
+		cvjs_setRedlinesAbsolutePath(ServerUrl+"/content/redlines/v7/", ServerLocation+"/content/redlines/v7/", true);
 
 		// NOTE ABOVE: THESE SETTINGS ARE FOR SERVER CONTROLS FOR UPLOAD OF REDLINES
 
@@ -242,19 +237,18 @@
 		// and the relative location of floorplans drawings relative to my current location
 		// as well as the URL to the location of floorplan drawings with username and password if it is protected "" "" if not
 
-		// cvjs_setServerFileLocation(ServerLocation+'/content/drawings/dwg/', '../content/drawings/dwg/', ServerUrl+'/content/drawings/dwg/',"","");
-		cvjs_setServerFileLocation_AbsolutePaths(ServerLocation+'/content/drawings/dwg/', ServerUrl+'content/drawings/dwg/',"","");
+		cvjs_setServerFileLocation_AbsolutePaths(ServerLocation+"/content/drawings/dwg/", ServerUrl+"content/drawings/dwg/","","");
 		// NOTE ABOVE: THESE SETTINGS ARE FOR SERVER CONTROLS FOR UPLOAD OF FILES AND FILE MANAGER
 		
 
 
 
-		cvjs_setInsertImageObjectsAbsolutePath(ServerUrl+'drawings/demo/inserted_image_objects/', ServerLocation+'/drawings/demo/inserted_image_objects/');
+		cvjs_setInsertImageObjectsAbsolutePath(ServerUrl+"drawings/demo/inserted_image_objects/", ServerLocation+"/drawings/demo/inserted_image_objects/");
 
 
 		// NOTE BELOW: THESE SETTINGS ARE FOR SERVER CONTROLS OF SPACE OBJECTS
 		// Set the path to folder location of Space Objects
-		cvjs_setSpaceObjectsAbsolutePath(ServerUrl+'/content/spaceObjects/demoUsers/', ServerLocation+'/content/spaceObjects/demoUsers/');
+		cvjs_setSpaceObjectsAbsolutePath(ServerUrl+"/content/spaceObjects/demoUsers/", ServerLocation+"/content/spaceObjects/demoUsers/");
 		// NOTE ABOVE: THESE SETTINGS ARE FOR SERVER CONTROLS OF SPACE OBJECTS
 
 		// NOTE BELOW: THESE SETTINGS ARE FOR SERVER CONTROLS FOR CONVERTING DWG, DXF, DWF files
@@ -494,7 +488,7 @@ function cvjs_loadStickyNotesRedlinesUser(){
 		console.log(" cvjs_graphicalObjectOnChange: "+type+" "+graphicalObject+" "+spaceID+" indexSpace: "+graphicalObject.toLowerCase().indexOf("space"));
 
  /*     UPDATE SERVER WITH REDLINES ON CHANGE       
-        if (graphicalObject.toLowerCase().indexOf('redline')>-1 && !type.toLowerCase().indexOf('click')==0 ){
+        if (graphicalObject.toLowerCase().indexOf("redline")>-1 && !type.toLowerCase().indexOf("click")==0 ){
 //            cvjs_setStickyNoteSaveRedlineUrl(ServerLocation + "/content/redlines/v7/test"+Math.round(Math.random()*100)+".js");
             cvjs_setStickyNoteSaveRedlineUrl(ServerLocation + "/content/redlines/v7/test_fixed.js");
             cvjs_saveStickyNotesRedlines("floorPlan", false, "THIS IS PLACEHOLDER FOR CUSTOM STUFF TO SERVER");
@@ -502,7 +496,7 @@ function cvjs_loadStickyNotesRedlinesUser(){
 */
 
 
-		if (type == 'Create' && graphicalObject.toLowerCase().indexOf("space")>-1 && graphicalObject.toLowerCase().indexOf("circle")==-1){
+		if (type == "Create" && graphicalObject.toLowerCase().indexOf("space")>-1 && graphicalObject.toLowerCase().indexOf("circle")==-1){
 				
             /*
             * Return a JSON structure of all content of a space object clicked: <br>
@@ -528,7 +522,7 @@ function cvjs_loadStickyNotesRedlinesUser(){
             *								"scale_y": scale_y ,<br>
             *								"rotate": rotate, <br>
             *								"transform": transform} <br>
-            * @return {Object} jsonSpaceObject - Object with the entire space objects content
+            * @return Object jsonSpaceObject - Object with the entire space objects content
             */
 		
 			myobject = cvjs_returnSpaceObjectID(spaceID);
@@ -543,14 +537,14 @@ function cvjs_loadStickyNotesRedlinesUser(){
 		}
 		
 
-		if (type == 'Delete' && graphicalObject.toLowerCase().indexOf("space")>-1 ){
+		if (type == "Delete" && graphicalObject.toLowerCase().indexOf("space")>-1 ){
 			// remove this entry from my DB
 
 			window.alert("We have deleted: "+spaceID)
 		}
 
 
-		if (type == 'Move' && graphicalObject.toLowerCase().indexOf("space")>-1 ){
+		if (type == "Move" && graphicalObject.toLowerCase().indexOf("space")>-1 ){
 			// remove this entry from my DB
 			console.log("This object has been moved: "+spaceID)		
 			myobject = cvjs_returnSpaceObjectID(spaceID);
@@ -558,7 +552,7 @@ function cvjs_loadStickyNotesRedlinesUser(){
 		}
 
 
-		if (type == 'Click'){
+		if (type == "Click"){
 			// remove this entry from my DB
 			console.log(graphicalObject+" has been clicked");		
 
@@ -690,7 +684,7 @@ function cvjs_mouseleave(id, handle, entity){
 
 	<!--This is the CADViewer floorplan div declaration -->
 
-		<div id="floorPlan"  style="border:2px none; width:1800;height:1400;">
+		<div id="floorPlan"  class="cadviewer-bootstrap cadviewer-core-styles" tyle="border:2px none; width:1800;height:1400;">
 		</div>
 
 	<!--End of CADViewer declaration -->
