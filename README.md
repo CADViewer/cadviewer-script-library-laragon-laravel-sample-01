@@ -35,8 +35,9 @@ You can find one CADViewer blade file corresponding to the routes defined in /ro
 
 For configuration:
 
-3A: Please modify ServerUrl, ServerLocation and ServerBackEndUrl in /resources/views/layouts/cadviewer-space-object-canvas-02.blade.php and $httpHost 
-3B: and $home_dir in  /public/php/CADViewer_config.php 
+3A: Please modify ***ServerUrl***, ***ServerLocation*** and ***ServerBackEndUrl*** in /resources/views/layouts/cadviewer-space-object-canvas-02.blade.php 
+
+3B: Please modify ***$httpHost*** and ***$home_dir*** in  /public/php/CADViewer_config.php 
 
 
 3C: Go to /routes/web.php,  select between the the routes: 
