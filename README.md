@@ -33,10 +33,13 @@ You can find one CADViewer blade file corresponding to the routes defined in /ro
 
 3: /cadviewer-laravel-8/ contains legacy Laravel installation of CADViewer, run: http://cadviewer-laravel-8.test to get started.  
 
-For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl in /resources/views/layouts/cadviewer-space-object-canvas-02.blade.php and $httpHost and $home_dir in  /public/php/CADViewer_config.php 
+For configuration:
+
+3A: Please modify ServerUrl, ServerLocation and ServerBackEndUrl in /resources/views/layouts/cadviewer-space-object-canvas-02.blade.php and $httpHost 
+3B: and $home_dir in  /public/php/CADViewer_config.php 
 
 
-3A: Go to /routes/web.php,  select between the the routes: 
+3C: Go to /routes/web.php,  select between the the routes: 
 
 
 
@@ -51,7 +54,7 @@ For configuration, please modify ServerUrl, ServerLocation and ServerBackEndUrl 
 
 
 
-2B: Go to /resources/views/layouts/  
+3D: Go to /resources/views/layouts/  
 
 You can find two CADViewer blade files corresponding to the routes defined in /routes/web.php. 
 
@@ -83,8 +86,8 @@ use these template samples for your reference.
 	* [Servlets](https://cadviewer.com/cadviewertechdocs/handlers/servlets/)
 	* [Angular](https://cadviewer.com/cadviewertechdocs/handlers/angular/)
 	* [ReactJS](https://cadviewer.com/cadviewertechdocs/handlers/reactjs/)
-* [Download **AutoXchange**](/alldownloads/autoxchange) (and other converters), install (unzip) AX2023 in **cadviewer/converters/ax2020/windows** or **cadviewer/converters/ax2020/linux** or in the designated folder structure.
-* Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2030 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
+* [Download **AutoXchange**](/alldownloads/autoxchange) (and other converters), install (unzip) AX2024 in **cadviewer/converters/ax2020/windows** or **cadviewer/converters/ax2020/linux** or in the designated folder structure.
+* Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2024 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
 * Download **Handlers/Connectors** specific to your back-end technology [Download Handlers](/alldownloads/handlers/) and install them as described in the [Handlers Section](https://cadviewer.com/cadviewertechdocs/handlers).
 
 
